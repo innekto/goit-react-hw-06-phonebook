@@ -26,9 +26,6 @@ export const Input = styled(Field)`
 `;
 
 export const Error = styled(ErrorMessage)`
-  display: flex;
-  /* width: 300px; */
-  text-align: center;
   color: #ff0000;
   margin-bottom: 15px;
   font-weight: 500;
