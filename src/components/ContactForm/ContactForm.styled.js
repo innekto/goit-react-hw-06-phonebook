@@ -30,6 +30,19 @@ export const Error = styled(ErrorMessage)`
   margin-bottom: 15px;
   font-weight: 500;
   font-size: 16px;
+  opacity: 0;
+  animation-name: appear;
+  animation-duration: 0.7s;
+  animation-fill-mode: forwards;
+
+  @keyframes appear {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
 `;
 
 export const Label = styled.label`
